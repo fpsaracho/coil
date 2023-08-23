@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar scroll</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,7 +36,8 @@
 </nav>
 
 <p>ruteo</p>
-<a href="/login"> login</a> <br>
-<app-login></app-login>
-<a href="/home"> home</a>
-<app-home></app-home>
+<a [routerLink]="['/login']"> login</a> <br>
+
+<a [routerLink]="['/home']"> home</a> -->
+<router-outlet></router-outlet>
+
